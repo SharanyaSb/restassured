@@ -1,0 +1,41 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-08T07:24:54.289Z",
+        "line": 30,
+        "name": "Validate Addplace by converting Json to Excel",
+        "description": "",
+        "id": "placevalidation;validate-addplace-by-converting-json-to-excel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5063706700,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Addplace payload",
+            "match": {
+              "location": "StepDefinitions.Place.addplace_payload()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Complexjson"
+          }
+        ]
+      }
+    ],
+    "name": "PlaceValidation",
+    "description": "",
+    "id": "placevalidation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Place.feature",
+    "tags": []
+  }
+]
